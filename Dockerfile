@@ -1,4 +1,4 @@
-FROM ubuntu:alpine
+FROM ubuntu
 RUN apt install apache2
 RUN apt install php
 COPY ./index.php /var/www/index.php
